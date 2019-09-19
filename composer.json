@@ -11,11 +11,16 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-imagine": "^2.1",
+        "bower-asset/croppr" : "*"
+    },
+    "extra": {
+        "bootstrap": "uraankhayayaal\\gallery\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
-            "uraankhayayaal\\gallery\\": ""
+            "uraankhayayaal\\gallery\\": "src"
         }
     }
 }
